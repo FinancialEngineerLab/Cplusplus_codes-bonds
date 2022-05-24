@@ -178,6 +178,8 @@ int main() {
     float z2 = bonds.ZeroCouponBond(2, 100, 0.026, 1);
     float z3 = bonds.ZeroCouponBond(3, 100, 0.027, 1);
     std::cout << "zero coupon price : " << z1 << std::endl;
+    std::cout << "zero coupon price : " << z2 << std::endl;
+    std::cout << "zero coupon price : " << z3 << std::endl;
 
     float cpn = bonds.CouponBondPrice(1, 100, 0.025, 1, 0.03);
     std::cout << "coupon bonds :" << cpn << std::endl;
