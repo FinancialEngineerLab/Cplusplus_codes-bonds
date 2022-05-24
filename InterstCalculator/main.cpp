@@ -66,7 +66,7 @@ class portfolio : public BondTypes {
 
 public:
 
-    //---------------------------Part F--------------------------------- see if git catches this...........or this
+    //---------------------------Part F--------------------------------- 
     float LongShortPortfolio() {
         double oneYear = ZeroCouponBond(1, 100, 0.025, 1);
         double twoYear = ZeroCouponBond(2, 100, 0.026, 1);
